@@ -1,0 +1,158 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "createdAt": 1748248222,
+      "name": "name 1",
+      "userRoleId": 1,
+      "age": 99,
+      "city": "city 1",
+      "gender": false,
+      "dateOfBirth":1748248222,
+      "nationality": "nationality 1",
+      "residence": "residence 1",
+      "phone": 46,
+      "email": "email 1",
+      "avatar": "avatar 1"
+    },
+    {
+      "id": "2",
+      "createdAt": 1748248162,
+      "name": "name 2",
+      "userRoleId": 1,
+      "age": 47,
+      "city": "city 2",
+      "gender": false,
+      "dateOfBirth":1748248222,
+      "nationality": "nationality 2",
+      "residence": "residence 2",
+      "phone": 29,
+      "email": "email 2",
+      "avatar": "avatar 2"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "userId": "1",
+      "createdAt": 1748248225,
+      "userName": "userName 1",
+      "password": "password 1",
+      "googleLink": "googleLink 1",
+      "facebookLink": "facebookLink 1"
+    },
+    {
+      "id": 2,
+      "userId": "2",
+      "createdAt": 1748248165,
+      "userName": "userName 2",
+      "password": "password 2",
+      "googleLink": "googleLink 2",
+      "facebookLink": "facebookLink 2"
+    }
+  ],
+  "products":[
+    {
+        "id":1,
+        "categoryId":1,
+        "Name":"name 123",
+        "quantity":1,
+        "price":123,
+        "productTypeId":1,
+        "status":true,
+        "createdAt": 1748248165,
+        "salePrice":123
+
+    }
+  ],
+  "productTypes":[
+    {
+        "id":1,
+        "name":"fruits",
+        "productId": 1,
+        "createdAt": 1748248165
+
+    }
+  ],
+  "adminUser":[
+    {
+        "id":1,
+        "name":"sss",
+        "dateOfBirth":1748248222,
+        "userName":"admin",
+        "password":"password 1",
+        "adminRoleId": 1,
+        "createdAt": 1748248165
+    }
+  ],
+  "userRole":[
+    {
+        "id":1,
+        "name":"zxc",
+        "status":1,
+        "createdAt": 1748248165
+    }
+  ],
+  "adminRole":[
+    {
+        "id":1,
+        "name":"zxc",
+        "status":1,
+        "createdAt": 1748248165
+    }
+  ],
+  "category":[
+    {
+        "id":1,
+        "name":"zxc",
+        "createdAt": 1748248165
+    }
+  ],
+  "reviews":[
+    {
+        "id":1,
+        "productId":1,
+        "Descriptions": "Descriptions",
+        "createdAt": 1748248165
+    }
+  ],
+  "banner":[
+    {
+        "id":1,
+        "name":"name",
+        "image":"image",
+        "createdAt": 1748248165,
+        "status":true
+    }
+  ],
+  "contact":[
+    {
+        "id":1,
+        "username":"userName",
+        "userEmail":"email",
+        "subject":"subject",
+        "Descriptions":"Descriptions",
+        "createdAt": 1748248165
+
+    }
+  ],
+  "blogs":[
+    {
+        "id":1,
+        "categoryId":1,
+        "name":"name 1",
+        "subject":"subject",
+        "status":true,
+        "createdAt": 1748248165
+    }
+  ],
+  "comments":[
+    {
+        "id":1,
+        "userId":1,
+        "blogId":1,
+        "Descriptions":"Descriptions",
+        "createdAt": 1748248165
+    }
+  ]
+}
